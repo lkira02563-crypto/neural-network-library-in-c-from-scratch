@@ -3,7 +3,7 @@
 CC = gcc
 CFLAGS = -O2 -std=c11 -Wall -Wextra
 LDFLAGS = -lm
-SRCS = module.c matrix.c prng.c
+SRCS = module.c matrix.c 
 OBJS = $(SRCS:.c=.o)
 TARGET = ml_example
 
