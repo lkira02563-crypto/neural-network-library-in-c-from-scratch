@@ -49,14 +49,9 @@ Notes
 
 - The trainer uses finite differences to compute gradients. It's extremely slow
   for larger networks — this is deliberate for clarity. Replace with analytic
-  backpropagation for performance.
-- The code uses single-precision floats. Adjust types if you need double precision.
+  backpropagation for performance.- The code uses single-precision floats. Adjust types if you need double precision.
 - For brevity some allocations are not freed; if integrating into long-running
   applications, add proper free() calls or use an arena allocator.
 
-Contributing
 
-If you want to contribute:
-- Add tests in test.c and keep changes small.
-- Prefer explicit, well-documented commits.
 
